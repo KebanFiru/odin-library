@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    align-items: center;
+}
+
+#main{
+    display: flex;
+    flex-direction: row ;
+    gap: 10px;
+}
+
+#books{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+    gap: 10px;
+    justify-content: center;
+}
+#box{
+    border-radius: 10px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #bef264;
+}
+
+.book_div{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #86efac;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    position: relative;
+}
+#RemoveButton{
+    background-color: #ef4444;
+    box-shadow: 0;
+    border-radius: 20px;
+    margin: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
